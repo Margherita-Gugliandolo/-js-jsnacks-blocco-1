@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#fronte, #retro{
+  width:200px;
+}
+
+
+.hide{
+  opacity:0;
+  transition: 0.8s;
+}
+.show{
+    opacity:1;
+    transition: 0.8s;
+}
+.container{
+  width:500px;
+  margin: auto;
+}
